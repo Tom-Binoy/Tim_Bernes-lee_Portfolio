@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.menu {
+    list-style: none;
+    top :10px;
+    right: 30px;
+    z-index: 10;
+    position: fixed;
+    cursor: pointer;
+}
+
+.links:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#name {
+    font-family: 'Rubik Dirt', cursive;
+    letter-spacing: 2px;
+}
+
+.links {
+    display:inline;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.well {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#wellcome {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: table;
+    background: linear-gradient(#bcf76f 0%, #f5381b 100%);
+    width: 100%;
+    z-index: 9;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#wellcome_inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
